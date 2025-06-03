@@ -17,7 +17,7 @@ function TaskList({ tasks, deleteTask }) {
           </button>
         </li>
       ))}
-    </ul>
+   </ul>
   );
 }
 
