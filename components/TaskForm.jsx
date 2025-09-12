@@ -7,7 +7,7 @@ function TaskForm({ addTask }) {
     e.preventDefault();
     if (input.trim()) {
       addTask(input.trim());
-      setInput('');
+      setInput(''); //need to figure this line
     }
   };
 
