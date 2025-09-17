@@ -10,7 +10,7 @@ function TaskList({ tasks, deleteTask }) {
         >
           {task}
           <button
-            onClick={() => deleteTask(index)}
+            onClick={() => deleteTask(index)} //delete task
             className="text-red-500"
           >
             ✕
